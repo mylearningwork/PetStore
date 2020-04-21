@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.testPages.Petstore">
+        <methods>
+          <include name="validateDeletePet"/>
+          <include name="endTest"/>
+          <include name="afterMethod"/>
+          <include name="tearDown"/>
+          <include name="driverAndExtentReportSetup"/>
+          <include name="driverAndExtentReportSetup"/>
+          <include name="validateGetPet"/>
+          <include name="thisClassTestStarted"/>
+          <include name="cleanUp"/>
+          <include name="validateUpdatePet"/>
+        </methods>
+      </class> <!-- com.testPages.Petstore -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

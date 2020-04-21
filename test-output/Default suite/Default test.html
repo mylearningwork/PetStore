@@ -1,0 +1,178 @@
+<html>
+<head>
+<title>TestNG:  Default test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Default test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>4/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Apr 21 22:45:42 AST 2020</td>
+</tr>
+<tr><td>Total time:</td><td>8 seconds (8570 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.testPages.PetstoreTest.validateAddPetTest()'><b>validateAddPetTest</b><br>Test class: com.testPages.PetstoreTest<br/>
+<a href="#Output-319061373" onClick='toggleBox("Output-319061373", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-319061373" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-319061373">
+Url is --https://petstore.swagger.io/v2/pet<br/>
+Pet details received from server is : {
+    "id": 1845563262948981666,
+    "category": {
+        "id": 0,
+        "name": "string"
+    },
+    "name": "doggie",
+    "photoUrls": [
+        "string"
+    ],
+    "tags": [
+        {
+            "id": 0,
+            "name": "string"
+        }
+    ],
+    "status": "available"
+}<br/>
+Status code is  :200<br/>
+Successfully added new pet in store<br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>com.testPages.PetstoreTest@1700915</td></tr>
+<tr>
+<td title='com.testPages.PetstoreTest.validateDeletePetTest()'><b>validateDeletePetTest</b><br>Test class: com.testPages.PetstoreTest<br/>
+<a href="#Output-904409454" onClick='toggleBox("Output-904409454", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-904409454" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-904409454">
+Pet details received from server is : {
+    "code": 200,
+    "type": "unknown",
+    "message": "1"
+}<br/>
+Status code is  :200<br/>
+Pet deleted successfully..<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.testPages.PetstoreTest@1700915</td></tr>
+<tr>
+<td title='com.testPages.PetstoreTest.validateGetPetTest()'><b>validateGetPetTest</b><br>Test class: com.testPages.PetstoreTest<br/>
+<a href="#Output-717998169" onClick='toggleBox("Output-717998169", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-717998169" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-717998169">
+Pet details received from server is : {
+    "id": 1,
+    "category": {
+        "id": 2,
+        "name": "dogs"
+    },
+    "name": "Alok Rai",
+    "photoUrls": [
+        "String"
+    ],
+    "tags": [
+        {
+            "id": 3,
+            "name": "gs"
+        }
+    ],
+    "status": "available"
+}<br/>
+Status code is  :200<br/>
+Successfully received pet data from Pet store.<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.testPages.PetstoreTest@1700915</td></tr>
+<tr>
+<td title='com.testPages.PetstoreTest.validateUpdatePetTest()'><b>validateUpdatePetTest</b><br>Test class: com.testPages.PetstoreTest<br/>
+<a href="#Output-627709989" onClick='toggleBox("Output-627709989", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-627709989" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-627709989">
+Pet details received from server is : {
+    "code": 200,
+    "type": "unknown",
+    "message": "1"
+}<br/>
+Status code is  :200<br/>
+Pet updated successfully<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>com.testPages.PetstoreTest@1700915</td></tr>
+</table><p>
+</body>
+</html>

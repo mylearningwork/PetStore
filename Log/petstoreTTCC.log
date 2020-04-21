@@ -1,0 +1,72 @@
+2020-04-21 22:45:26,535 [main] INFO utilities.TestBase - Configuring extent report and launching browsser.
+2020-04-21 22:45:37,793 [main] INFO utilities.TestBase - Waiting for page to load... Max Wait Time is :: 60 Secs.
+2020-04-21 22:45:38,809 [main] INFO utilities.TestBase - Current Page Status :: complete :: Waited For 1 Seconds
+2020-04-21 22:45:38,809 [main] INFO utilities.TestBase - Successfully launched the browser
+2020-04-21 22:45:38,819 [main] INFO utilities.TestBase - ********* Launching chrome browser*****************
+2020-04-21 22:45:42,942 [main] INFO utilities.TestBase - ********* Opening URL-- http://petstore.swagger.io/#/ *****************
+2020-04-21 22:45:42,957 [main] INFO utilities.TestBase - ***** Test case execution of Class com.testPages.PetstoreTeststarted******
+2020-04-21 22:45:42,980 [main] INFO utilities.TestBase - validateAddPetTest test started
+2020-04-21 22:45:46,505 [main] INFO utilities.TestBase - Message: Url is --https://petstore.swagger.io/v2/pet
+2020-04-21 22:45:46,583 [main] INFO utilities.TestBase - Message: Pet details received from server is : {
+    "id": 1845563262948981666,
+    "category": {
+        "id": 0,
+        "name": "string"
+    },
+    "name": "doggie",
+    "photoUrls": [
+        "string"
+    ],
+    "tags": [
+        {
+            "id": 0,
+            "name": "string"
+        }
+    ],
+    "status": "available"
+}
+2020-04-21 22:45:46,587 [main] INFO utilities.TestBase - Message: Status code is  :200
+2020-04-21 22:45:46,588 [main] INFO utilities.TestBase - Message: Successfully added new pet in store
+2020-04-21 22:45:47,022 [main] INFO utilities.TestBase - Message: ***Placed screen shot in E:\Automation\petStore-master\screenshots\ ***
+2020-04-21 22:45:47,029 [main] INFO utilities.TestBase - validateUpdatePetTest test started
+2020-04-21 22:45:48,093 [main] INFO utilities.TestBase - Message: Pet details received from server is : {
+    "code": 200,
+    "type": "unknown",
+    "message": "1"
+}
+2020-04-21 22:45:48,667 [main] INFO utilities.TestBase - Message: Status code is  :200
+2020-04-21 22:45:48,668 [main] INFO utilities.TestBase - Message: Pet updated successfully
+2020-04-21 22:45:48,999 [main] INFO utilities.TestBase - Message: ***Placed screen shot in E:\Automation\petStore-master\screenshots\ ***
+2020-04-21 22:45:49,000 [main] INFO utilities.TestBase - validateGetPetTest test started
+2020-04-21 22:45:49,930 [main] INFO utilities.TestBase - Message: Pet details received from server is : {
+    "id": 1,
+    "category": {
+        "id": 2,
+        "name": "dogs"
+    },
+    "name": "Alok Rai",
+    "photoUrls": [
+        "String"
+    ],
+    "tags": [
+        {
+            "id": 3,
+            "name": "gs"
+        }
+    ],
+    "status": "available"
+}
+2020-04-21 22:45:49,931 [main] INFO utilities.TestBase - Message: Status code is  :200
+2020-04-21 22:45:49,933 [main] INFO utilities.TestBase - Message: Successfully received pet data from Pet store.
+2020-04-21 22:45:50,251 [main] INFO utilities.TestBase - Message: ***Placed screen shot in E:\Automation\petStore-master\screenshots\ ***
+2020-04-21 22:45:50,253 [main] INFO utilities.TestBase - validateDeletePetTest test started
+2020-04-21 22:45:51,162 [main] INFO utilities.TestBase - Message: Pet details received from server is : {
+    "code": 200,
+    "type": "unknown",
+    "message": "1"
+}
+2020-04-21 22:45:51,178 [main] INFO utilities.TestBase - Message: Status code is  :200
+2020-04-21 22:45:51,179 [main] INFO utilities.TestBase - Message: Pet deleted successfully..
+2020-04-21 22:45:51,511 [main] INFO utilities.TestBase - Message: ***Placed screen shot in E:\Automation\petStore-master\screenshots\ ***
+2020-04-21 22:45:51,512 [main] INFO utilities.TestBase - ***************All test cases of Class com.testPages.PetstoreTest executed******
+2020-04-21 22:45:52,890 [main] INFO utilities.TestBase - *********** All test classes run. Extent report generated and put in : E:\Automation\petStore-master\extentReports .Quitting browser**********

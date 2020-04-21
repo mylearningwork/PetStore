@@ -1,0 +1,63 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="7">Default suite</th></tr>
+<tr><td><a href="#t0">Default test</a></td><td class="num">4</td><td class="num">0</td><td class="num">0</td><td class="num">8,570</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="4">com.testPages.PetstoreTest</td><td><a href="#m0">validateAddPetTest</a></td><td rowspan="1">1587498342981</td><td rowspan="1">3607</td></tr><tr class="passedeven"><td><a href="#m1">validateDeletePetTest</a></td><td rowspan="1">1587498350254</td><td rowspan="1">926</td></tr><tr class="passedeven"><td><a href="#m2">validateGetPetTest</a></td><td rowspan="1">1587498349001</td><td rowspan="1">933</td></tr><tr class="passedeven"><td><a href="#m3">validateUpdatePetTest</a></td><td rowspan="1">1587498347030</td><td rowspan="1">1639</td></tr></tbody>
+</table>
+<h2>Default test</h2><h3 id="m0">com.testPages.PetstoreTest#validateAddPetTest</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Url is --https://petstore.swagger.io/v2/pet<br/>Pet details received from server is : {
+    "id": 1845563262948981666,
+    "category": {
+        "id": 0,
+        "name": "string"
+    },
+    "name": "doggie",
+    "photoUrls": [
+        "string"
+    ],
+    "tags": [
+        {
+            "id": 0,
+            "name": "string"
+        }
+    ],
+    "status": "available"
+}<br/>Status code is  :200<br/>Successfully added new pet in store</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.testPages.PetstoreTest#validateDeletePetTest</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Pet details received from server is : {
+    "code": 200,
+    "type": "unknown",
+    "message": "1"
+}<br/>Status code is  :200<br/>Pet deleted successfully..</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.testPages.PetstoreTest#validateGetPetTest</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Pet details received from server is : {
+    "id": 1,
+    "category": {
+        "id": 2,
+        "name": "dogs"
+    },
+    "name": "Alok Rai",
+    "photoUrls": [
+        "String"
+    ],
+    "tags": [
+        {
+            "id": 3,
+            "name": "gs"
+        }
+    ],
+    "status": "available"
+}<br/>Status code is  :200<br/>Successfully received pet data from Pet store.</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.testPages.PetstoreTest#validateUpdatePetTest</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Pet details received from server is : {
+    "code": 200,
+    "type": "unknown",
+    "message": "1"
+}<br/>Status code is  :200<br/>Pet updated successfully</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>
